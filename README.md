@@ -1,2 +1,3 @@
-# meetable-flutter
-Flutter mobile app
+# meetable
+
+Meetable application
