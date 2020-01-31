@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:meetable/models/activity.dart';
 import 'package:meetable/models/planDate.dart';
 import 'package:meetable/models/user.dart';
@@ -18,21 +17,6 @@ class Plan {
   final List<PlanDate> dates;
   final PlanTime time;
   final DocumentReference reference;
-
-//  Plan([this.uuid = "", createdBy, planInputText, creationDate, isActive,
-//      isDeleted, users, activities, dates, time, reference) :
-//        this.uuid = uuid,
-//        this.createdBy = createdBy,
-//        this.planInputText = planInputText,
-//        this.creationDate = creationDate,
-//        this.isActive = isActive,
-//        this.isDeleted = isDeleted,
-//        this.users = users,
-//        this.activities = activities,
-//        this.dates = dates,
-//        this.time = time,
-//        this.reference = reference;
-
 
   Plan.fromMap(Map<String, dynamic> map, {this.reference})
       : assert(map['uuid'] != null),

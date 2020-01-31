@@ -1,11 +1,6 @@
-import 'package:circular_profile_avatar/circular_profile_avatar.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:googleapis/bigquery/v2.dart' as prefix0;
-import 'package:meetable/models/activity.dart';
-import 'package:meetable/models/plan.dart';
 import 'package:meetable/models/planDate.dart';
-import 'package:meetable/models/user.dart';
 import 'package:meetable/ui/plan/time.dart';
 
 class DatesScreen extends StatefulWidget {

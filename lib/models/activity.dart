@@ -24,12 +24,3 @@ class Activity {
   @override
   String toString() => "Activity<$description>";
 }
-
-//Map<String, dynamic> createActivityMap() {
-//  var map = new Map<String, dynamic>();
-//  map['uuid'] = "";
-//  map['graphic'] = "";
-//  map['type'] = "";
-//  map['description'] = "";
-//  return map;
-//}

@@ -7,7 +7,6 @@ import 'package:meetable/models/planTime.dart';
 import 'package:meetable/models/user.dart';
 import 'package:meetable/models/planDate.dart';
 import 'package:meetable/ui/plan/activities.dart';
-import 'package:meetable/ui/plan/dates.dart';
 
 void main() => runApp(MyApp());
 
